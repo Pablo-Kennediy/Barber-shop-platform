@@ -1,7 +1,8 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body{
-    background-image: url("fundo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: black;
     color: wheat;
 }
 a{
@@ -33,4 +34,7 @@ picture#logo img{
 iframe{
     width: 100%;
     height: 65vh;
+}
+p{
+    margin: 15px;
 }
