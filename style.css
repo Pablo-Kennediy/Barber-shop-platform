@@ -1,40 +1,51 @@
-*{
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body{
-background-color: black;
+
+body {
+    background-color: black;
     color: wheat;
 }
-a{
+
+a {
     text-decoration: none;
-color: maroon;
-background-color: antiquewhite;
-padding: 5px;
-border-radius: 15px;
+    color: maroon;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 15px;
 }
-ul{
+
+ul {
     text-align: end;
     list-style: none;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     border: 2px solid gray;
     border-radius: 15px;
     padding: 5px;
+    margin: 5px;
 }
-footer{
+
+footer {
     border-top: 2px solid gray;
     text-align: center;
 }
-picture#logo img{
+
+picture#logo img {
     display: block;
     float: left;
     max-width: 85px;
 }
-iframe{
+
+iframe {
     width: 100%;
     height: 65vh;
 }
-h1, h2, p{
+
+h1,
+h2,
+p {
     padding: 10px;
 }
