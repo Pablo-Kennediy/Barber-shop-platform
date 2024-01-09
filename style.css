@@ -48,3 +48,6 @@ iframe {
 h1, h2, p {
     padding: 10px;
 }
+picture#navMenu img {
+    max-width: 35px;
+}
