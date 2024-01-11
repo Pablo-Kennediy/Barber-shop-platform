@@ -24,25 +24,23 @@ nav ul li {
     display: inline-block;
     border: 2px solid gray;
     border-radius: 15px;
-    padding: 5px;
-    margin: 5px;
+    margin: 15px;
 }
 
 footer {
     border-top: 2px solid gray;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 picture#logo img {
     display: block;
-    float: left;
     max-width: 85px;
 }
 
 iframe {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 h1, h2, p {
@@ -50,4 +48,9 @@ h1, h2, p {
 }
 picture#navMenu img {
     max-width: 35px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
